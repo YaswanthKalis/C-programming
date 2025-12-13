@@ -8,7 +8,6 @@ int main()
   {
       scanf("%d",&a[i]);
   }
-
     scanf("%d",&pos);
  
    for(i=pos;i<n-1;i++)  
