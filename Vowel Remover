@@ -1,0 +1,12 @@
+s=input(str())
+v="aeiou"
+V="AEIOU"
+result=""
+for ch in s:
+    if ch not in v and ch not in V:
+        result+=ch
+    
+print(result)
+        
+        
+        
