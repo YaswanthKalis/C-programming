@@ -33,7 +33,7 @@ int main()
     }
     printf("%c occurs %d times", maxchar, max);
 
-    char minchar; // to return highest frequency character
+    char minchar; // to return lowest frequency character
     for (i = 0; i < 256; i++)
     {
         if (freq[i] < min)
