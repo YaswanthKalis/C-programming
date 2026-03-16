@@ -11,7 +11,7 @@ int main()
   }
   if((ch>='a')&&(ch<='z'))
   {
-      printf("%c",ch-32);
+      printf("%c",ch-32); 
   }
        return 0;
 }
